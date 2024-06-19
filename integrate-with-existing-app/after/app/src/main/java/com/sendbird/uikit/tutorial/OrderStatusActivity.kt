@@ -1,7 +1,6 @@
 package com.sendbird.uikit.tutorial
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.View
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -17,7 +16,7 @@ class OrderStatusActivity : AppCompatActivity() {
         "12345",
         "In transit 🚛",
         listOf("Pizza", "Coke"),
-        "" // TODO: Replace with the actual delivery person ID
+        "" // TODO: Replace with the actual delivery person ID, DELIVERY_PERSON_ID
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
